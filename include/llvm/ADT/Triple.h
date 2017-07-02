@@ -95,6 +95,7 @@ public:
     wasm64,         // WebAssembly with 64-bit pointers
     renderscript32, // 32-bit RenderScript
     renderscript64, // 64-bit RenderScript
+    xtensa,         // Xtensa
     LastArchType = renderscript64
   };
   enum SubArchType {
